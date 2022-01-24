@@ -1,0 +1,13 @@
+.cat-photo {
+  --_photoSize: 18rem;
+
+  background-color: var(--dark-grey);
+  height: var(--_photoSize);
+  width: var(--_photoSize);
+
+  img {
+    height: var(--_photoSize);
+    object-fit: cover;
+    width: var(--_photoSize);
+  }
+}

@@ -1,0 +1,11 @@
+.card {
+  background-color: var(--white);
+  border-radius: var(--border-radius--s);
+  box-shadow: var(--box-shadow--1);
+  overflow: hidden;
+}
+
+.card__header {
+  border-bottom: 1px solid var(--light-grey);
+  padding: var(--spacing--m);
+}
