@@ -11,8 +11,8 @@ import { OwnersContext, OwnersProvider } from "../context/OwnersProvider";
 
 const Cat = () => {
   const params = useParams();
-  const catName = params.catId.split("-")[0];
-  const owner = params.catId.split("-")[1];
+  const catName = params.catId?.split("-")[0];
+  const owner = params.catId?.split("-")[1];
 
   return (
     <main className="l-container l-flow page">
